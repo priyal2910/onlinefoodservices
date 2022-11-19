@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="contact">
+    <header>
+        <h1 id="topc1">Online Food Services</h1>
+        <h2 id="topc2">Contact Form</h2>
+    </header>
+    <form action="#" id="form">
+        <div class="form-control">
+            <label for="query" id="label-query">
+                Type of Query
+            </label>
+            <select name="query" id="query">
+                <option value="quality">Food Quality</option>
+                <option value="website">Website Issue</option>
+                <option value="delivery">Delivery</option>
+                <option value="price">Food Prices</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email ID</label>
+            <input type="email" id="email" placeholder="Enter your mail ID">
+        </div>
+        <div class="form-control">
+            <label for="number" id="label-number">Phone No.</label>
+            <input type="text" id="number" placeholder="Enter your phone no.">
+        </div>
+        <div class="form-control">
+            <label>
+                Are you a member of OnlineFoodShop : 
+            </label>
+            <label for="opt1">
+                <input type="radio" name="opt" id="opt1">Yes
+            </label>
+            <label for="opt2">
+                <input type="radio" name="opt" id="opt2">No
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                Elaborate Your Query : 
+            </label>
+            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Enter your query"></textarea>
+        </div>
+        <div>
+            <button class="btn1" >
+                Submit
+            </button>
+            <button class="btn1">
+                Reset 
+            </button>
+        </div>
+    </form>
+</body>
+</html>
